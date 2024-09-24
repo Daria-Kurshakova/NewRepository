@@ -1,3 +1,9 @@
-Printf("Hello world");
-Printf("Введите два целых числа");
-Scanf("%d%d", &a, &b);
+#include <stdio.h>
+
+int main()
+{
+	Printf("Введите два целых числа");
+	Scanf("%d%d", &a, &b);
+	Printf("%d", a-b);
+	return 0;
+}
